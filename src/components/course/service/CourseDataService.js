@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const Trainer = 'rakesh'
-const COURSE_API_URL = 'http://localhost:8080/api/v1'
+const COURSE_API_URL = 'http://10.105.99.111:80/api/v1'
 const INSTRUCTOR_API_URL = `${COURSE_API_URL}/instructors/${Trainer}`
 
 //We are forming the URL to call in a reusable way.
